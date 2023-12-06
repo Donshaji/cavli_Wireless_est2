@@ -1,0 +1,266 @@
+body{
+  zoom: 94%;
+}
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 776px;
+  position: relative;
+}
+
+.desktop .frame {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1440px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1070px 1070px;
+  padding: 13px 34px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #d3d3d3;
+}
+
+.desktop .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #2f2f2f;
+  font-size: 43px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .frame-2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 19px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .frame-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 3px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #2f2f2f;
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #890000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .ellipse {
+  position: relative;
+  width: 54px;
+  height: 54px;
+  background-color: #ffffff;
+  border-radius: 27px;
+}
+
+.desktop .frame-4 {
+  display: flex;
+  flex-direction: column;
+  width: 272px;
+  height: 696px;
+  align-items: flex-start;
+  gap: 25px;
+  padding: 35px 13px;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  border-right-width: 2px;
+  border-right-style: solid;
+  border-color: #cecece;
+}
+
+.desktop .frame-5 {
+  display: flex;
+  width: 245px;
+  align-items: center;
+  gap: 117px;
+  padding: 7px 12px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #cecece;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.desktop .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #2f2f2f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .ic-baseline-delete {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  margin-right: -5px;
+}
+
+.desktop .frame-wrapper {
+  display: flex;
+  width: 245px;
+  height: 56px;
+  align-items: center;
+  gap: 168px;
+  padding: 7px 12px;
+  position: absolute;
+  top: 614px;
+  left: 13px;
+  background-color: #cecece;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.desktop .frame-6 {
+  display: inline-flex;
+  align-items: center;
+  gap: 129px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -2px;
+}
+
+.desktop .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #2f2f2f;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .ic-sharp-plus {
+  position: relative;
+  width: 39px;
+  height: 39px;
+}
+
+.desktop .frame-7 {
+  position: absolute;
+  width: 963px;
+  height: 588px;
+  top: 115px;
+  left: 372px;
+}
+
+.desktop .overlap-group {
+  position: absolute;
+  width: 963px;
+  height: 485px;
+  top: 85px;
+  left: 0;
+}
+
+.desktop .frame-8 {
+  position: absolute;
+  width: 940px;
+  height: 484px;
+  top: 1px;
+  left: 23px;
+  background-color: #ececec;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-color: #2f2f2f;
+}
+
+.desktop .text-wrapper-6 {
+  position: absolute;
+  top: 14px;
+  left: -14px;
+  transform: rotate(-90deg);
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #2f2f2f;
+  font-size: 12px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-7 {
+  position: absolute;
+  top: -1px;
+  left: 23px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #2f2f2f;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .lorem-ipsum-dolor {
+  position: absolute;
+  width: 940px;
+  top: 33px;
+  left: 23px;
+  font-family: "Inter", Helvetica;
+  font-weight: 200;
+  color: #2f2f2f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-8 {
+  position: absolute;
+  top: 572px;
+  left: 935px;
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #2f2f2f;
+  font-size: 12px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}

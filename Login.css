@@ -1,0 +1,119 @@
+body{
+  zoom: 94%;
+}
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 776px;
+  position: relative;
+}
+
+.desktop .frame {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1440px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1070px 1070px;
+  padding: 13px 34px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #d3d3d3;
+}
+
+.desktop .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #2f2f2f;
+  font-size: 43px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-2 {
+  position: absolute;
+  top: 153px;
+  left: 677px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .frame-2 {
+  display: inline-flex;
+  flex-direction: column;
+  height: 276px;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+  padding: 38px 101px;
+  position: absolute;
+  top: 246px;
+  left: 462px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.desktop .div-wrapper {
+  position: relative;
+  width: 314.47px;
+  height: 41.47px;
+  background-color: #f1f1f1;
+  border-radius: 8.64px;
+  overflow: hidden;
+  border: 0.86px solid;
+  border-color: #000000;
+}
+
+.desktop .text-wrapper-3 {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #787878;
+  font-size: 16.4px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .frame-3 {
+  position: relative;
+  width: 314.47px;
+  height: 41.47px;
+  background-color: #000000;
+  border-radius: 8.64px;
+  overflow: hidden;
+}
+
+.desktop .text-wrapper-4 {
+  position: absolute;
+  top: 7px;
+  left: 128px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}

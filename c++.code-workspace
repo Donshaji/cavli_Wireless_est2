@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../programing/c++"
+		},
+		{
+			"path": "../cavili"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "cavili"
+	}
+}
